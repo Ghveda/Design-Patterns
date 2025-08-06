@@ -1,11 +1,17 @@
 import {callAbstractionMethods, callEncapsulationMethods, callInheritanceMethods} from "./OOP";
-import {callLSPMethods, callOCPMethods} from "./SOLID";
+import {callLDIPMethods, callLSPMethods, callOCPMethods} from "./SOLID";
+import {callPrototypeMethods, callSingletonMethods} from "./Patterns";
 
 // // OOP
 // callAbstractionMethods();
 // callEncapsulationMethods();
 // callInheritanceMethods();
 
-// SOLID
-callOCPMethods();
-callLSPMethods();
+// // SOLID
+// callOCPMethods();
+// callLSPMethods();
+// callLDIPMethods();
+
+// // Creational Patterns
+// callSingletonMethods();
+callPrototypeMethods();

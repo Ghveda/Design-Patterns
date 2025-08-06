@@ -36,3 +36,16 @@ Creational, Structural, Behavioral
 | -                              | -                                                     | Strategy                                                 |
 | -                              | -                                                     | Template Method                                          |
 | -                              | -                                                     | Visitor                                                  |
+
+
+# Creational Patterns
+
+### Singleton
+The Singleton pattern is a creational design pattern that lets you ensure that a class has only one instance, 
+while providing a global access point to this instance.
+
+### Prototype
+The prototype pattern is a creational design pattern that allows cloning objects, even complex ones, without coupling to
+their specific classes. All prototype classes have a common interface that makes it possible to copy objects even if 
+their concrete classes are unknown. Prototype objects can produce full copies since objects of the same class can access
+each others's private fields.
