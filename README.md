@@ -49,3 +49,18 @@ The prototype pattern is a creational design pattern that allows cloning objects
 their specific classes. All prototype classes have a common interface that makes it possible to copy objects even if 
 their concrete classes are unknown. Prototype objects can produce full copies since objects of the same class can access
 each others's private fields.
+
+## Builder
+The Builder pattern is a creational design pattern that lets you construct complex object step by step
+
+### Factory
+The Factory Design Pattern is a type of creational design pattern that provides an interface for creating objects
+in a super class, but allows subclasses to alter the type of objects that will be created
+
+### Abstract Factory
+Abstract Factory is a creational design pattern that provides an interface for creating families of related or
+dependent objects without specifying their concrete classes
+
+# Structural Patterns
+
+
