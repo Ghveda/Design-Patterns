@@ -39,6 +39,10 @@ Creational, Structural, Behavioral
 
 
 # Creational Patterns
+Creational design patterns in object-oriented programming deal with object creation mechanisms, trying to create 
+objects in a manner suitable to the situation. The basic form of object creation could result in design problems 
+or add complexity to the design. Creational design patterns solve the problem by somehow controlling this 
+object creation process.
 
 ### Singleton
 The Singleton pattern is a creational design pattern that lets you ensure that a class has only one instance, 
@@ -62,5 +66,39 @@ Abstract Factory is a creational design pattern that provides an interface for c
 dependent objects without specifying their concrete classes
 
 # Structural Patterns
+Structural design patterns are a type of design pattern that deal with object composition and the structure of classes
+ and objects. They help ensure that when a change is made in one part of a system, it doesn't require in other parts.
+This makes the system more flexible and easier to maintain.
 
+### Facade
+The Facade design pattern is a structural design pattern that provides a simplified interface to a complex system.
+It involves creating a wrapper interface over complex system to hide its complexities. The pattern involves a single
+class that provides simplified methods required by the client and delegates calls to methods of existing system classes.
+
+###  Bridge
+The Bridge pattern is a structural design pattern that lets you split a large class or a set of closely related classes
+into two separate hierarchies - abstraction and implementation - which can be developed independently of each other
+
+### Composite
+The composite pattern is a structural design pattern that lets you compose objects into tree-like structures and then
+work with these structures as if they were individual objects.
+
+### Decorator
+The Decorator design pattern is a structural design pattern that allows you to dynamically add or override behaviour
+in an existing object without changing its implementation. The pattern is a particularly useful when you want to modify
+the behaviour of an object without affecting other objects of the same class.
+
+### Adapter
+The Adapter Design pattern is a software design pattern that allows the interface of an existing class to be used from
+another interface. it's often used to make existing classes work with  others without modifying their source code.
+The Adapter Pattern is especially useful when the classes that need to communicate with each other do not have 
+compatible interfaces.
+
+# Behavioral
+Behavioral design patterns are responsible for efficient communication and the assignment of responsibilities among
+objects. They focus on how objects interact and communicate with each other, as well as how the flow of control is 
+organized with a system. These patterns define the protocols for communication between objects and help in distributing
+responsibilities to ensure that the system is efficient, maintainable, and scalable.
+
+### Observer
 
