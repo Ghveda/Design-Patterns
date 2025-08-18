@@ -101,4 +101,54 @@ organized with a system. These patterns define the protocols for communication b
 responsibilities to ensure that the system is efficient, maintainable, and scalable.
 
 ### Observer
+The observer design pattern is a behavioral design pattern that allows you to define or create a subscription mechanism
+to send notifications to multiple objects about any new events that happen to the object they're oberving. The object 
+that is being watched is often called the subject. The objects that are watching the state changes are called obervers
+or listeners.
+
+### Iterator
+The iterator pattern is a design pattern that allows sequential access to elements in a collection, without exposing
+its underlying representation. it provides a way to access the elements of an aggregate object sequentially without
+exposing the underlying details.
+
+### Strategy
+The Strategy pattern is a behavioral design pattern that lets you define a family of algorithms, put each of them into
+seperate classes, and make their objects interchangeable. In other words, its's a way to change the behavior of an 
+object at runtime without changing its implementation.
+
+### Template
+The template method is a behavioral design pattern that defines the skeleton of an algorithm is a base class but lets 
+subclasses override specific steps of the algorithm without changing its structure. The pattern allows you to make parts
+of an algorithm optional, mandatory, or customizable by the subclasses.
+
+### Command
+The Command design pattern is a behavioral design pattern that turns a request into a standalone object that contains 
+all information about the request. The transformation lets you pass requests as a method arguments, delay a queue a 
+request's execution, and support undoable operations. 
+
+### State
+State Design Pattern is a behavioral design pattern that allows an object to change its behavior when its internal state
+changes.
+
+### Chain
+The Chain of responsibility is a behavioral design pattern that lets you pass requests along a chain of handlers. Upon
+receiving a request, each handler decides either to process the request or to pass it to the next handler in the chain.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
